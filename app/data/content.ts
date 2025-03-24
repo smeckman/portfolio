@@ -56,11 +56,14 @@ export const content: Content = {
       {
         category: 'JavaScript',
         items: [
-          { text: 'React' },
+          { text: 'React', url: 'https://github.com/smeckman/portfolio' },
           { text: 'Angular' },
           { text: 'Node.js' },
           { text: 'ECMAScript', url: 'https://gist.github.com/smeckman' },
-          { text: 'TypeScript' },
+          {
+            text: 'TypeScript',
+            url: 'https://github.com/smeckman/portfolio/blob/master/app/components/Scene.tsx'
+          },
           { text: 'RxJS' }
         ],
       },
@@ -78,10 +81,8 @@ export const content: Content = {
       {
         category: 'Continuous Delivery',
         items: [
-          { text: 'AWS' },
           { text: 'Kubernetes' },
-          { text: 'Docker' },
-          { text: 'Git' }
+          { text: 'Docker', url: 'https://github.com/smeckman/portfolio/blob/master/Dockerfile' }
         ],
       },
       {
