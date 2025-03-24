@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
  * @returns {JSX.Element} Rendered PDF viewer component
  */
 const PDFViewer = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <>
@@ -47,7 +47,7 @@ const PDFViewer = () => {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-white rounded-lg shadow-xl w-full max-w-4xl h-[80vh] fixed bottom-px"
+              className="bg-white rounded-lg shadow-xl w-full max-w-4xl h-[80vh] fixed bottom-[5vh]"
             >
               {/* Close button */}
               <button
