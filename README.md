@@ -1,6 +1,6 @@
 # Interactive 3D Portfolio
 
-An immersive, interactive 3D portfolio built with Next.js, Three.js, and React Three Fiber. This project showcases professional experience and skills through an engaging 3D interface with interactive elements and dynamic animations.
+An [immersive, interactive 3D portfolio](https://smeckman.github.io) built with Next.js, Three.js, and React Three Fiber. This project showcases professional experience and skills through an engaging 3D interface with interactive elements and dynamic animations.
 
 ## Features
 
