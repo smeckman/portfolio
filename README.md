@@ -53,6 +53,17 @@ An [immersive, interactive 3D portfolio](https://smeckman.github.io) built with 
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+5. Alternatively, using Docker, create an image:
+   ```bash
+   docker build -t portfolio .
+   ```
+
+6. Create a container from the image:
+   ```bash
+   docker run -d -p 8080:80 portfolio
+
+7. Open [http://localhost:8080](http://localhost:8080) in your browser
+
 ### Building for Production
 
 1. Create a production build:
