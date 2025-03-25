@@ -48,9 +48,9 @@ export const content: Content = {
       {
         category: 'JVM',
         items: [
-          { text: 'Java' },
-          { text: 'Spring Boot' },
-          { text: 'Reactive Streams' }
+          { text: 'Java', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' },
+          { text: 'Spring Boot', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' },
+          { text: 'Reactive Streams', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' }
         ],
       },
       {
