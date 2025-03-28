@@ -50,7 +50,7 @@ export const content: Content = {
         items: [
           { text: 'Java', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' },
           { text: 'Spring Boot', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' },
-          { text: 'Reactive Streams', url: 'https://github.com/smeckman/reactive-streams-mandelbrot' }
+          { text: 'Reactive Streams', url: 'https://deep-thoughts-by-steve.hashnode.dev/a-deep-dive-into-mandelbrot-fractal-rendering-through-reactive-programming' }
         ],
       },
       {
